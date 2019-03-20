@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package arraylistexample;
-
+import java util.Iterator
 /**
  *
  * @author Producer
@@ -21,7 +20,15 @@ public class ArrayListExample {
         VideoGame game1 = new VideoGame("Battlefield 1", 2001, "M", platform1);
         VideoGame game2 = new VideoGame("Pokemon Sun", 2016, "E", platform2);
         VideoGame game3 = new VideoGame("The Legend of Zelda", 2017, "E", platform2);
-            
+ //ArrayList
+ ArrayList<VideoGame> games = new ArrayList<>();
+ games.add(game1);
+ games.add(game2);
+ games.add(game3);
+ 
+ System.out.println(games);
+    
     }
+    
     
 }
